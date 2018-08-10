@@ -13,5 +13,8 @@
     <releaseNotes>#160</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>swagger wcf .net c#</tags>
+    <dependencies>
+      <dependency id="Inexto.SwaggerWcf.Attributes" version="1.0.0.0" />
+    </dependencies>
   </metadata>
 </package>

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Reflection;
-using Newtonsoft.Json;
 using SwaggerWcf.Attributes;
 using SwaggerWcf.Configuration;
 using SwaggerWcf.Models;
@@ -11,7 +10,7 @@ using SettingElement = SwaggerWcf.Configuration.SettingElement;
 
 namespace SwaggerWcf.Support
 {
-    internal class ServiceBuilder
+    internal static class ServiceBuilder
     {
         public static Service Build(string path)
         {

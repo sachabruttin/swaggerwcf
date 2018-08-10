@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Inexto.SwaggerWcf</id>
+    <version>0.3.0</version>
+    <title>Inexto.SwaggerWcf</title>
+    <authors>abelsilva</authors>
+    <owners>abelsilva</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/abelsilva/swaggerwcf/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/abelsilva/swaggerwcf</projectUrl>
+    <description>Swagger for WCF</description>
+    <releaseNotes>#160</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>swagger wcf .net c#</tags>
+  </metadata>
+  <files>
+    <file src="lib\net461\SwaggerWcf.dll" target="lib\net461\SwaggerWcf.dll" />
+    <file src="lib\net461\SwaggerWcf.Standard.dll" target="lib\net461\SwaggerWcf.Standard.dll" />
+  </files>
+</package>

@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SwaggerWcf.Test.Service</RootNamespace>
     <AssemblyName>SwaggerWcf.Test.Service</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <UseIISExpress>true</UseIISExpress>
@@ -96,6 +96,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SwaggerWcf.Attributes\SwaggerWcf.Attributes.csproj">
+      <Project>{46873059-72ba-4b7b-9a3e-99ff7a4b5acc}</Project>
+      <Name>SwaggerWcf.Attributes</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SwaggerWcf\SwaggerWcf.csproj">
       <Project>{0ad6efbc-412f-4c0e-8e0a-0faf28151b55}</Project>
       <Name>SwaggerWcf</Name>

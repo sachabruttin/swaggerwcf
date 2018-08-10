@@ -13,8 +13,6 @@ using System.Runtime.CompilerServices;
 
 namespace SwaggerWcf
 {
-    public delegate Stream GetFileCustomDelegate(string filename, out string contentType, out long contentLength);
-
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     public class SwaggerWcfEndpoint : ISwaggerWcfEndpoint
     {
